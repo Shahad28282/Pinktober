@@ -60,6 +60,22 @@
             margin: 20px 0;
         }
 
+        .button {
+            display: inline-block; /* جعل الرابط يظهر كزر */
+            margin-top: 20px; /* مسافة فوق الزر */
+            padding: 10px 20px; /* حشوة داخلية */
+            background-color: #d5006d; /* لون خلفية الزر */
+            color: #fff; /* لون النص */
+            border-radius: 5px; /* زوايا مستديرة */
+            text-decoration: none; /* إزالة خط تحت الرابط */
+            transition: background-color 0.3s; /* تأثير التحويل */
+            font-weight: 600; /* وزن عريض للنص */
+        }
+
+        .button:hover {
+            background-color: #c40059; /* لون عند المرور */
+        }
+
         footer {
             margin-top: 50px; /* مسافة من الأعلى */
             color: #555; /* لون النص */
@@ -128,7 +144,6 @@
             <li>- اتباع نظام غذائي صحي.</li>
             <li>- تجنب التدخين.</li>
         </ul>
-        <p>للمزيد من المعلومات، يمكنك زيارة الرابط التالي: <a href="https://www.moh.gov.sa/HealthAwareness/EducationalContent/wh/Breast-Cancer/Pages/default.aspx" target="_blank">وزارة الصحة</a></p>
 
         <div class="diagnostic-test">
             <h2>اختبار تشخيصي</h2>
@@ -145,7 +160,8 @@
         <h2>الفحص المنزلي</h2>
         <p>يمكنك مشاهدة فيديو الفحص المنزلي أدناه:</p>
         <iframe src="https://www.youtube.com/embed/aeKdZ7aPfwg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+
+        <a href="https://www.moh.gov.sa/HealthAwareness/EducationalContent/wh/Breast-Cancer/Pages/default.aspx" class="button" target="_blank">زيارة وزارة الصحة</a> <!-- زر وزارة الصحة -->
     </div>
 
     <footer>
